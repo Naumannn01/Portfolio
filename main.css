@@ -1,0 +1,438 @@
+/* Universal */
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: rgb(3, 3, 21);
+    color: white;
+}
+
+h1 {
+    /* margin-top: 30px; */
+    /* margin-bottom: 20px; */
+    text-align: center;
+    color: rgb(38, 86, 219);
+    color: white;
+
+}
+
+hr {
+    border: 0;
+    background: rgb(38, 86, 219);
+    height: 1.2px;
+    margin: 10px 84px;
+}
+
+p {
+    text-align: center;
+    color: grey;
+}
+.right p{
+    text-align: left;
+    color: grey;
+}
+/* Navbar */
+
+nav {
+    /* padding: 10px; */
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+    align-items: center;
+    height: 60px;
+    background-color: rgb(3, 3, 21);
+    box-shadow: 13px 12px 15px black;
+}
+
+nav ul {
+    background-color: #181846;
+}
+
+nav ul li {
+    list-style: none;
+    letter-spacing: 1.5px;
+    margin: 0 10px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: white;
+}
+
+nav ul li a:hover {
+    color: cadetblue;
+}
+
+nav ul li:hover {
+    font-size: 1.01rem;
+    border: 1px solid rgb(99, 89, 155);
+}
+
+/* First-Section */
+/* img {
+    height: 80vh;
+} */
+.black {
+    color: rgb(38, 86, 219);
+    color: #ccc;
+}
+
+.right {
+    width: 100%;
+    font-size: 36px;
+    background-color:transparent;
+    /* background-color:white; */
+    
+    text-align: center;
+}
+
+.firstSection {
+    display: flex;
+    justify-content: space-around;
+    margin: 80px 0;
+    align-items: center;
+}
+
+.firstSection>div {
+    width: 45%;
+}
+
+.btn{
+    width: 200px;
+    height: 30px;
+    background-color: transparent;
+    border-radius: 15px;
+    border: 1px solid rgb(38, 86, 219);
+    color: white;
+}
+.btn:hover{
+    background-color: rgb(38, 86, 219);
+    border-radius: 15px;
+    color: black;
+    font-size: large;
+    cursor: pointer;
+    border: 1px solid transparent;
+    transition: 0.5s ease;
+}
+
+ul li a{
+    color: rgb(38, 86, 219); ;
+}
+#element {
+    color: blueviolet;
+    color: rgb(38, 86, 219);
+}
+
+/* Second-Section */
+
+.secondSection {
+    height: 80vh;
+    max-width: 80vw;
+    margin: auto;
+}
+
+.secondSection h1 {
+    font-size: 1.5rem;
+}
+
+.workexp {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 15px;
+    justify-content: space-around;
+    width: 100%;
+    height: 60vh;
+    background-color: #181846;
+}
+
+.gallery {
+    width: 100%;
+    background-color: #9b59b6;
+    color: rgb(38, 86, 219);
+
+
+}
+
+/* Third-Section */
+
+.thirdSection {
+    height: 80vh;
+    max-width: 80vw;
+    margin: auto;
+}
+
+.myblogs {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 15px;
+    justify-content: space-around;
+    width: 100%;
+    height: 60vh;
+    background-color: #181846;
+}
+
+
+
+/* Fourth-Section */
+
+.user {
+    padding: 10px;
+}
+
+.container {
+    background-color: rgb(19, 22, 22);
+    width: 300px;
+    padding: 30px 30px;
+    border-radius: 15px;
+}
+
+.container form .user {
+    display: block;
+    margin: 20px 0 12px 0;
+    color: white;
+    letter-spacing: 1px;
+}
+
+.user .input-box {
+    margin-bottom: 15px;
+    width: 80%;
+}
+
+.input-box .details {
+    display: block;
+    margin-bottom: 5px;
+}
+
+.input-box input {
+    color: white;
+    background-color: transparent;
+    height: 45px;
+    width: 100%;
+    outline: none;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    padding-left: 15px;
+    font-size: 16px;
+    border-bottom-width: 2px;
+    transition: 0.5s ease;
+}
+
+.button{
+    margin-left:10px ;
+    align-items: center;
+}
+form input[type='submit'] {
+    width: 100px;
+    height: 30px;
+    background-color: rgb(38, 86, 219);
+    border-radius: 15px;
+    color: black;
+    cursor: pointer;
+    border: 1px solid transparent;
+
+}
+
+form input[type='submit']:hover {
+    background-color: transparent;
+    border-radius: 15px;
+    border: 1px solid rgb(38, 86, 219);
+    color: white;
+    transition: 0.5s ease;
+}
+   
+
+.connect {
+    display: flex;
+    justify-content: space-around;
+}
+
+.user .input-box input:focus,
+.user .input-box input:valid {
+    /* border-color: #9b59b6; */
+    border-color: rgb(38, 86, 219);
+}
+
+
+/* Footer css */
+.footer {
+    height: 40vh;
+    background-color: black;
+}
+
+.footer h3 {
+    align-items: center;
+    display: flex;
+    width: 55px;
+}
+
+.footer ul li {
+    list-style: none;
+    padding: 6px;
+
+}
+
+.footer li a {
+    text-decoration: none;
+    color: white;
+}
+
+.footer>div {
+    width: 123px;
+}
+
+footer {
+    margin: 20px;
+    width: 100%;
+    height: 50px;
+    text-align: center;
+
+}
+
+.copyright {
+    letter-spacing: 3px;
+    color: rgb(239, 238, 238);
+    padding: 10px;
+}
+
+ul {
+    display: flex;
+    list-style: none;
+    justify-content: center;
+}
+
+li {
+    padding: 10px;
+}
+
+/* Spacer */
+
+.space {
+    width: 100%;
+    height: 60vh;
+    background-color: #ffffff;
+
+}
+
+.spacer {
+    height: 80vh;
+    max-width: 80vw;
+    margin: auto;
+}
+
+h4 {
+    text-align: center;
+    color: rgb(38, 86, 219);
+
+}
+
+#icon {
+    color: rgb(38, 86, 219);
+
+}
+
+.Tech {
+    display: flex;
+    justify-content: center;
+}
+
+.Left {
+    background-color: rgb(19, 22, 22);
+    border-radius: 15px;
+    margin-right: 20px;
+}
+
+.Tech .Left ul {
+    display: block;
+    width: 200px;
+    padding: 20px;
+}
+
+.Tech .Left li {
+    letter-spacing: 2px;
+    text-align: center;
+}
+
+.Right {
+    background-color: rgb(19, 22, 22);
+    border-radius: 15px;
+
+}
+
+.Tech .Right ul {
+    display: block;
+    width: 200px;
+    padding: 20px;
+
+}
+
+.Tech .Right li {
+    letter-spacing: 2px;
+
+    text-align: center;
+}
+
+.hover ul li {
+    background-color: rgb(38, 86, 219);
+    border-radius: 15px;
+    color: black;
+    margin-right: 5px;
+}
+
+.hover ul li:hover {
+    background-color: transparent;
+    border-radius: 15px;
+    border: 1px solid rgb(38, 86, 219);
+    color: white;
+    transition: 0.5s ease;
+}
+
+.pr-box {
+    display: flex;
+    justify-content: center;
+
+}
+
+.pr-left {
+    width: 250px;
+    height: 250px;
+    border: 1px solid rgb(38, 86, 219);
+    padding: 10px;
+    border-radius: 15px;
+    margin-right: 20px;
+
+}
+.pr-left:hover{
+box-shadow: 5px 5px white;
+}
+
+.pic-one {
+    margin: 2px solid rgb(38, 86, 219);
+    padding: 10px;
+    background-color: #181846;
+    height: 92%;
+    border-radius: 15px;
+
+}
+
+
+/* .database ul {
+    display: block;
+    width: 200px;
+    background-color: rgb(27, 48, 48);
+
+} */
+
+video{
+width: 220px;
+border-radius: 5px;
+background-color: #ffffff;
+padding: 6px;
+
+}
+.caption{
+    letter-spacing: 1px;
+    font-family: 'Courier New', Courier, monospace;
+    margin: 0 10px ;
+}
