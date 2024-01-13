@@ -1,4 +1,8 @@
 # Portfolio
+Jan 13th 2024  
+https://mdnaumanshaikh01.netlify.app/
+
+The code in this repo is just my grind 
 Visit for preview
 https://naumannn01.github.io/Portfolio/
 
